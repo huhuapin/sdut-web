@@ -52,7 +52,8 @@
                         @endphp
                         @if($first)
                             <a href="{{url("news/{$first->id}")}}"><img src="{{url('getImage')}}/{{$first->img}}" alt=""></a>
-                            <a href="{{url("news/{$first->id}")}}" class="new-title">{{$first->title}}</a>
+                            <a href="{{url("news/{$first->id}")}}" class="new-title">{{str_limit($first->title,'34','...')}}</a>
+
                         @endif
                     </div>
                     <div class="new-category">
@@ -79,7 +80,8 @@
                         @endphp
                         @if($first)
                             <a href="{{url("news/{$first->id}")}}"><img src="{{url('getImage')}}/{{$first->img}}" alt=""></a>
-                            <a href="{{url("news/{$first->id}")}}" class="new-title">{{$first->title}}</a>
+                            <a href="{{url("news/{$first->id}")}}" class="new-title">{{str_limit($first->title,'34','...')}}</a>
+
                         @endif
                     </div>
                     <div class="new-category">
@@ -106,7 +108,8 @@
                         @endphp
                         @if($first)
                             <a href="{{url("news/{$first->id}")}}"><img src="{{url('getImage')}}/{{$first->img}}" alt=""></a>
-                            <a href="{{url("news/{$first->id}")}}" class="new-title">{{$first->title}}</a>
+                            <a href="{{url("news/{$first->id}")}}" class="new-title">{{str_limit($first->title,'34','...')}}</a>
+
                         @endif
                     </div>
                     <div class="new-category">
@@ -133,7 +136,8 @@
                         @endphp
                         @if($first)
                             <a href="{{url("news/{$first->id}")}}"><img src="{{url('getImage')}}/{{$first->img}}" alt=""></a>
-                            <a href="{{url("news/{$first->id}")}}" class="new-title">{{$first->title}}</a>
+                            <a href="{{url("news/{$first->id}")}}" class="new-title">{{str_limit($first->title,'34','...')}}</a>
+
                         @endif
                     </div>
                     <div class="new-category">
@@ -160,7 +164,8 @@
                         @endphp
                         @if($first)
                             <a href="{{url("news/{$first->id}")}}"><img src="{{url('getImage')}}/{{$first->img}}" alt=""></a>
-                            <a href="{{url("news/{$first->id}")}}" class="new-title">{{$first->title}}</a>
+                            <a href="{{url("news/{$first->id}")}}" class="new-title">{{str_limit($first->title,'34','...')}}</a>
+
                         @endif
                     </div>
                     <div class="new-category">
