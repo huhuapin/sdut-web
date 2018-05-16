@@ -62,7 +62,8 @@ class HomeController extends Controller
         $user->permit = 1;
     }
     $user->save();
-        echo "注册成功";
+        echo "<script>alert('注册成功！')</script>";
+        echo "<script>var t = setTimeout(function(){parent.history.back()},2);</script>";
     }
 
     public function index(){

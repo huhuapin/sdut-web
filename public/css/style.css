@@ -171,6 +171,7 @@ nav.navbar.bootsnav ul.nav > li > a{
 }
 .new-list{
 	padding: 0 20px 10px;
+	min-height: 160px;
 }
 .new-list ul li {
 	list-style: none;
