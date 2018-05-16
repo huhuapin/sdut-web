@@ -1,0 +1,24 @@
+.nav-lvyou {
+	margin: 50px 0;
+}
+.nav-lvyou li a{
+	font-size: 20px;
+	font-weight: 600;
+}
+img {
+	max-width: 100%;
+}
+.top {
+	width: 70%;
+	margin: 0 auto;
+}
+.bottom {
+	margin: 30px auto;
+}
+.bottom p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-family: "Comic Sans MS", cursive, "Microsoft Yahei";
+}

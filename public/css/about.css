@@ -1,0 +1,37 @@
+.banner img{
+	width: 100%;
+}
+.banner {
+	line-height: 0;
+}
+.section {
+	padding-top: 30px;
+}
+.section-title {
+	margin-bottom: 30px;
+}
+.section-title h2 {
+	text-align: center;
+	color: #4c96f2;
+    font-size: 35px;
+    font-family: "Comic Sans MS", cursive, "Microsoft Yahei";
+}
+.section-content {
+	padding: 20px 10px;
+	text-indent: 2em;
+}
+.section-content p {
+	margin-bottom: 20px;
+	font-size: 16px;
+	text-indent: 2em;
+	line-height: 1.5em;
+    font-family: "Comic Sans MS", cursive, "Microsoft Yahei";
+
+}
+.section-content p span{
+	color: #F0772C;
+}
+video {
+	max-width: 100%;
+	margin-left: -28px;
+}
