@@ -80,7 +80,6 @@
                     <li> <a href="">新浪微博</a> </li>
                     <li><a href="javascript();" id="weixin">微信公众号</a><img src="{{asset('images/weixin.jpg')}}" width="150" id="weixin-img"></li>
                     <li><a href="javascript();" id="qq">QQ</a><img src="{{asset('images/qq.jpg')}}" alt="" width="150" id="qq-img"></li>
-                    <li><a href="">123 </a></li>
                 </ul>
             </div>
         </div>
