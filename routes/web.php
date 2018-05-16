@@ -19,7 +19,7 @@ Route::get('/lvyou','HomeController@lvyou');
 Route::get('about','HomeController@about');
 Route::get('login','HomeController@login');
 Route::post('login',"HomeController@loginpost");
-Routte::get('logout','HomeController@logout');
+Route::get('logout','HomeController@logout');
 Route::post('register','HomeController@register');
 Route::get('/getImage/{path}/{name}',['as'=>'getImage','uses'=>'HomeController@getImage']);
 
