@@ -56,14 +56,14 @@
                 <div class="form-group">
                     <label for="" class="label-control col-md-4">密码</label>
                     <div class="col-md-8">
-                        <input type="text" name="password" class="form-control" id="password">
+                        <input type="password" name="password" class="form-control" id="password">
                         <span></span>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="" class="label-control col-md-4">确认密码</label>
                     <div class="col-md-8">
-                        <input type="text" name="password_confirmation" class="form-control" id="password-confirmed">
+                        <input type="password" name="password_confirmation" class="form-control" id="password-confirmed">
                         <span></span>
                     </div>
                 </div>
