@@ -5,6 +5,7 @@
     <style>
         footer {
             margin-top: 0;
+            margin-bottom: -20px;
         }
     </style>
 @endsection
@@ -323,6 +324,7 @@
             </div>
         </div>
     </div>
+    {{--<audio id="bgmMusic" src="{{asset('media/jiningzhige.mp3')}}" preload="auto" controls autoplay="" loop="" type="audio/mp3"></audio>--}}
     <!-- 12县市区 end-->
     <div class="friend">
         <div class="container">
