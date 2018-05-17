@@ -109,7 +109,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="think" class="label-control col-md-4">对网站感受</label>
+                    <label for="think" class="label-control">对网站感受</label>
                     <textarea name="think" cols="30" rows="10" class="form-control" id="think"></textarea>
                 </div>
                     {{csrf_field()}}
