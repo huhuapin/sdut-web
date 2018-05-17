@@ -53,7 +53,7 @@ $('#password').blur(function () {
     }else{
         $('#password').parent().addClass("has-error");
         $('#password').parent().removeClass("has-success")
-        $('#password').next().text("密码必须由6-16位的字母、数字、下划线两种或两种以上的字符组成");
+        $('#password').next().text("密码必须由6-16位的字母、数字两种字符组成");
         yanzheng[1] = false;
     }
 
@@ -66,7 +66,7 @@ $('#password-confirmed').blur(function () {
         yanzheng[2] = false;
         $('#password-confirmed').parent().addClass("has-error");
         $('#password-confirmed').parent().removeClass("has-success")
-        $('#password-confirmed').next().text("密码必须由6-16位的字母、数字、下划线两种或两种以上的字符组成");
+        $('#password-confirmed').next().text("密码必须由6-16位的字母、数字两种字符组成");
         return;
     }
     console.log(v);
