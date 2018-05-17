@@ -21,7 +21,7 @@
                 <div class="news">
                     <div class="news-title text-center">
                         <h2>{{$news->title}}</h2>
-                        <span>时间：{{$news->updated_at}}    浏览量：{{$news->read}}</span>
+                        <span>时间：{{$news->created_at}}    浏览量：{{$news->read}}</span>
                     </div>
                     <div class="news-content">
                         {!! $news->content !!}

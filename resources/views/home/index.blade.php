@@ -2,7 +2,12 @@
 @section('css')
     <link rel="stylesheet" href="{{asset('css/jquery.bxslider.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    @endsection
+    <style>
+        footer {
+            margin-top: 0;
+        }
+    </style>
+@endsection
 @section('content')
     <!-- slider start -->
     <div class="container-fulid" style="max-height: 830px; overflow: hidden;">
@@ -350,5 +355,5 @@
             });
         });
     </script>
-    <embed  src="{{asset('media/jiningzhige.mp3')}}" hidden="true">
-    @endsection
+    <embed  src="{{asset('media/jiningzhige.mp3')}}" width="0" height="0">
+@endsection
