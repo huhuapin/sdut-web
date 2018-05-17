@@ -73,7 +73,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
 
 nav {
 	height: 100px;
-	background: rgb(231,231,231,0.3);
+	background: rgba(231,231,231,0.3);
 	/*box-shadow: 0px 3px 5px -3px #828282;*/
 }
 @media (min-width: 768px){
@@ -103,7 +103,7 @@ nav {
 }
 }
 .dropdown-menu{
-	background: rgb(231,231,231,0.3);
+	background: rgba(231,231,231,0.3);
 }
 nav.navbar.bootsnav ul.nav > li > a{
 	padding: 39px 15px;
@@ -178,7 +178,7 @@ nav.navbar.bootsnav ul.nav > li > a{
 	line-height: 2em;
 }
 .twelve{
-	background: rgb(255,255,255,0.8);
+	background: rgba(255,255,255,0.8);
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -200,7 +200,7 @@ nav.navbar.bootsnav ul.nav > li > a{
 	color: #000;
 }
 .friend {
-	background: rgb(255,255,255,0.8);
+	background: rgba(255,255,255,0.8);
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
